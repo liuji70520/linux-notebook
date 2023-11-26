@@ -1,5 +1,10 @@
 # 下载文件
-## 使用 nohup 命令在后台启动 wget 进程，递归下载所有文件，并指定下载目录
+## 使用 nohup 命令在后台启动 wget 进程，递归下载所有文件，并指定下载目录(可以配合screen命令创建新窗口)
+```bash
+screen
+```
+在 Screen 会话中分离：
+按下快捷键 Ctrl + A，然后按下 d。
 ```python3
 nohup wget -r -P my_custom_directory ftp://ftp.cngb.org/pub/CNSA/data3/CNP0001565/zeamap/99_MaizegoResources/01_CUBIC_related/Genotype/hybrid42k/ &
 ```
