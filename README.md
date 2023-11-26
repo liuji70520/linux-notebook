@@ -11,7 +11,8 @@ nohup 命令用于在后台运行 wget，& 用于将其挂起。
 -P 选项用于定义下载目录名称。
 my_custom_directory 是指定的下载目录。  
 ftp://ftp.cngb.org/pub/CNSA/data3/CNP0001565/zeamap/99_MaizegoResources/01_CUBIC_related/Genotype/hybrid42k/ 是要下载的目录的 URL。
-## 在 Screen 会话中分离：
+
+在 Screen 会话中分离：
 按下快捷键 Ctrl + A，然后按下 d。
 # 将 .ipynb 文件转换为 .py
 ## 安装 nbconvert 工具
