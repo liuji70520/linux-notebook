@@ -27,6 +27,6 @@ jupyter nbconvert --to script AA531coding.ipynb
 ## less篇
 ### 快速查找
 ```bash
-使用斜杠/后，输入对应的pattern，按回车即可
+使用斜杠/后，输入对应的pattern，按回车即可（上下或者鼠标回滚为查看命令历史）   
 ```
 
