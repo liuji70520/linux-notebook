@@ -23,5 +23,10 @@ pip install nbconvert
 ```bash              
 jupyter nbconvert --to script AA531coding.ipynb
 ```
-
+# 查看文件
+## less篇
+### 快速查找
+```bash
+使用斜杠后，输入对应的pattern，按回车即可
+```
 
