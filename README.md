@@ -18,7 +18,10 @@ ftp://ftp.cngb.org/pub/CNSA/data3/CNP0001565/zeamap/99_MaizegoResources/01_CUBIC
 ## 将 .ipynb 文件转换为 .py    
 ### 使用 nbconvert 将 .ipynb 文件转换为 .py 文件    
 ```bash
-pip install nbconvert              
+pip install nbconvert
+```
+
+```bash            
 jupyter nbconvert --to script AA531coding.ipynb
 ```
 # 查看文件
