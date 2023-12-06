@@ -22,7 +22,7 @@ pip install nbconvert
 ```
 
 ```bash            
-jupyter nbconvert --to script AA531coding.ipynb
+jupyter nbconvert --to python myPLSR.ipynb
 ```
 # 查看文件
 ## less篇
